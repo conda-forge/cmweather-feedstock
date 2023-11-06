@@ -1,5 +1,5 @@
 {% set name = "cmweather" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cmweather-{{ version }}.tar.gz
-  sha256: 298f18d67fbf807bfb1dca7df267f37757068c4db90373a3a1671e3831a2beee
+  sha256: 1ac1acb7b8e273c8267dcc239ab57c5f367a2579ddfb004d451d49e9ea74bc28
 
 build:
   noarch: python
